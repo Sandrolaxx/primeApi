@@ -1,4 +1,4 @@
-package org.acme;
+package com.primebank.rest;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 

@@ -1,12 +1,16 @@
 package org.acme;
 
-import io.quarkus.test.junit.QuarkusTest;
+import java.util.Set;
+
+import javax.inject.Inject;
+
+import com.primebank.rest.MyRemoteService;
+
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import javax.inject.Inject;
-import java.util.Set;
+import io.quarkus.test.junit.QuarkusTest;
 
 @QuarkusTest
 public class MyRemoteServiceTest {
